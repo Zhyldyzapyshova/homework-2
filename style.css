@@ -48,7 +48,7 @@ header span {
 
 .main-image {
     /* Стили для изображения в первой секции */
-    width: 715px;
+    max-width: 715px;
 }
 
 .about-section {
@@ -79,9 +79,9 @@ select {
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
     list-style-image: url("./assets/images/map-arrow.png");
-    padding-left: 20px;
     font-weight: 400;
     font-size: 16px;
+    padding: 0 20px;
 }
 
 .books-list {
@@ -106,6 +106,7 @@ select {
     border: 1px solid rgba(48, 48, 48, 0.3);
     border-radius: 5px;
     height: 36px;
+    font-size: 16px;
 }
 
 .btn {
@@ -138,10 +139,11 @@ th {
     border: 1px solid #95a1bb;
     font-weight: 700;
     text-align: center;
+    padding: 12px 15px;
 }
 td {
     font-weight: 400;
-    padding-left: 15px;
+    padding: 12px 15px;
     border: 1px solid #95a1bb;
 }
 footer {
